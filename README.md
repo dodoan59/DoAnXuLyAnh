@@ -19,7 +19,8 @@ Bước 5:
 Khởi tạo trọng số cho các khuôn mặt riêng trong bộ ảnh huấn luyện bằng cách nhân các mặt riêng với các vectơ mặt chuẩn hóa.Đối với mỗi 
 vectơ khuôn mặt huấn luyện, ta có được một tập hợp các trọng số biểu thị mức độ đóng góp của mỗi mặt riêng vào thành phần của khuôn mặt đó.
 Từ đó, các trọng số này được sử dụng trong giai đoạn thử nghiệm để tìm ra sự trùng khớp gần nhất giữa trọng số của ảnh thử nghiệm và trọng số của ảnh huấn luyện.
-Bước 6: Giai đoạn thử nghiệm:
+Bước 6: 
+Giai đoạn thử nghiệm:
 Tải ảnh thử nghiệm lên tiến hành các bước như ở trên:
 Chuyển đổi hình ảnh thử nghiệm đầu vào thành vector khuôn mặt  Chuẩn hóa vector khuôn mặt  chiếu của vectơ lên không gian riêng và tìm trọng số  Tìm chỉ mục (index) 
 mà khoảng cách Educide là tối thiểu .Biến chỉ mục trả về mặt huấn luyện được coi là khớp nhất với mặt kiểm tra dựa trên khoảng cách Euclide được tính toán trong không gian trọng số.
